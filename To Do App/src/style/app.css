@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", arial;
+}
+
+.container {
+  background: linear-gradient(orange, yellow);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+
+  height: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.container form input {
+  padding: 0.9rem;
+  width: 60%;
+  margin: 2rem auto;
+  border-radius: 6px;
+  border: none;
+}
+
+.container form button {
+  width: 30%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  background-color: black;
+  color: aliceblue;
+  margin: 2rem auto;
+}
+
+.todos {
+  cursor: pointer;
+  margin: 0.3rem 0;
+}
